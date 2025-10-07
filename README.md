@@ -7,55 +7,115 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# Marketplace UMKM
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![TBM Logo](https://cdn.example.com/tbm.png)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Marketplace UMKM adalah sebuah platform e-commerce yang dirancang untuk membantu para pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) dalam memasarkan produk-produk mereka secara online. Aplikasi ini dibangun menggunakan framework Laravel dengan antarmuka yang modern dan responsif.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## Daftar Isi
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- [Tentang Proyek](#tentang-proyek)
+- [Fitur](#fitur)
+- [Dibangun Dengan](#dibangun-dengan)
+- [Memulai](#memulai)
+- [Lisensi](#lisensi)
+- [Kontak](#kontak)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Tentang Proyek
 
-## Laravel Sponsors
+Proyek ini bertujuan untuk menyediakan sebuah platform digital yang mudah digunakan bagi para penjual (UMKM) untuk mengelola produk mereka dan bagi pembeli untuk menemukan dan membeli produk-produk lokal berkualitas. Dengan adanya tiga peran pengguna (pembeli, penjual, dan admin), platform ini memastikan manajemen yang terstruktur dan efisien.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## Fitur
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- **Autentikasi Pengguna**: Sistem registrasi dan login yang aman untuk semua pengguna.
+- **Manajemen Profil**: Pengguna dapat memperbarui informasi profil dan kata sandi mereka.
+- **Peran Pengguna**: Tiga jenis peran dengan hak akses yang berbeda:
+    - **Pembeli**: Dapat menjelajahi produk, menambahkan ke keranjang, melakukan checkout, dan melihat riwayat pesanan.
+    - **Penjual**: Dapat mengelola produk mereka (tambah, edit, hapus) dan melihat pesanan yang masuk.
+    - **Admin**: Memiliki akses penuh untuk mengelola pesanan dan memantau aktivitas di platform.
+- **Manajemen Produk**: Penjual dapat dengan mudah menambahkan, memperbarui, dan menghapus produk mereka melalui dashboard yang intuitif.
+- **Keranjang Belanja**: Fitur keranjang belanja yang fungsional, memungkinkan pembeli untuk menambah, memperbarui jumlah, dan menghapus produk.
+- **Proses Checkout**: Alur checkout yang sederhana untuk menyelesaikan transaksi.
+- **Riwayat Pesanan**: Pengguna dapat melihat riwayat pesanan mereka beserta statusnya.
+- **Desain Responsif**: Tampilan yang dioptimalkan untuk berbagai perangkat, baik desktop maupun mobile.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Dibangun Dengan
 
-## Code of Conduct
+- [Laravel](https://laravel.com/) - Framework PHP yang digunakan sebagai basis utama.
+- [Tailwind CSS](https://tailwindcss.com/) - Kerangka kerja CSS untuk desain antarmuka.
+- [Alpine.js](https://alpinejs.dev/) - Kerangka kerja JavaScript minimalis.
+- [MySQL](https://www.mysql.com/) - Sistem manajemen basis data.
+- [Vite](https://vitejs.dev/) - Alat bantu modern untuk pengembangan frontend.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## Memulai
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut.
 
-## License
+### Prasyarat
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- PHP >= 8.2
+- Composer
+- Node.js & NPM
+- Database (misalnya MySQL)
+
+### Instalasi
+
+1.  **Clone repositori**
+    ```sh
+    git clone [https://github.com/aksan-12/marketplace-umkm.git](https://github.com/aksan-12/marketplace-umkm.git)
+    cd marketplace-umkm
+    ```
+2.  **Instal dependensi PHP**
+    ```sh
+    composer install
+    ```
+3.  **Instal dependensi Node.js**
+    ```sh
+    npm install
+    ```
+4.  **Buat file `.env`**
+    Salin file `.env.example` menjadi `.env` dan sesuaikan konfigurasi database Anda.
+    ```sh
+    cp .env.example .env
+    ```
+5.  **Generate kunci aplikasi**
+    ```sh
+    php artisan key:generate
+    ```
+6.  **Jalankan migrasi database**
+    ```sh
+    php artisan migrate
+    ```
+7.  **Jalankan server pengembangan**
+    ```sh
+    npm run dev
+    ```
+    Dan di terminal lain:
+    ```sh
+    php artisan serve
+    ```
+
+---
+
+## Lisensi
+
+Didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
+
+---
+
+## Kontak
+
+Aksan - [Linkedin](https://www.linkedin.com/in/aksan-null-7834a3311/)
+
+Project Link: [https://github.com/aksan-12/marketplace-umkm](https://github.com/aksan-12/marketplace-umkm)
