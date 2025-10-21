@@ -1,8 +1,10 @@
 # Marketplace UMKM CV. Tunas Baru Moilong
 
-<a href="[https://laravel.com](https://laravel.com)" target="_blank">
-    <img src="public/images/laravel-logo.png" width="150" alt="Laravel Logo">
-</a>
+<p align="center">
+    <a href="https://laravel.com" target="_blank">
+        <img src="https://laravel.com/img/logotype.min.svg" width="150" alt="Laravel Logo">
+    </a>
+</p>
 
 <p align="center">
 Sebuah platform e-commerce yang dirancang untuk membantu para pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) dalam memasarkan produk-produk mereka secara online. Dibangun menggunakan Laravel & Tailwind CSS.
