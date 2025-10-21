@@ -33,8 +33,6 @@ Berikut adalah beberapa cuplikan tampilan dari Marketplace UMKM:
 | :----------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: |
 | ![Screenshot Beranda](public/images/beranda.png) | ![Screenshot Keranjang](public/images/keranjang.png) | ![Screenshot Dashboard](public/images/dashboard.png) |
 
-*(**Catatan Penting:** Ganti `nama_screenshot_beranda.png`, `nama_screenshot_keranjang.png`, dan `nama_screenshot_dashboard.png` dengan **nama file gambar Anda yang sebenarnya** yang ada di folder `public/images`.)*
-
 ---
 
 ## 🚀 Fitur Utama
