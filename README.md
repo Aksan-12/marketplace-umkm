@@ -9,7 +9,7 @@
 
 # Marketplace UMKM
 
-![TBM Logo](MARKET-PLACE/public/images/tbm.png)
+![TBM Logo](market-place/public/images/tbm.png)
 
 Marketplace UMKM adalah sebuah platform e-commerce yang dirancang untuk membantu para pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) dalam memasarkan produk-produk mereka secara online. Aplikasi ini dibangun menggunakan framework Laravel dengan antarmuka yang modern dan responsif.
 
