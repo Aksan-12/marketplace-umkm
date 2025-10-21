@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#" target="_blank">
-    <img src="market-place/public/images/tbm.png" width="150" alt="TBM Logo">
+    <img src="market-place/public/images/beranda.png" width="150" alt="TBM Logo">
   </a>
 </p>
 
@@ -29,11 +29,11 @@ Proyek ini bertujuan untuk menyediakan sebuah platform digital yang mudah diguna
 
 Berikut adalah beberapa cuplikan tampilan dari Marketplace UMKM:
 
-| Halaman Beranda                                      | Keranjang Belanja                                        | Dashboard Penjual                                       |
-| :---------------------------------------------------: | :-------------------------------------------------------: | :------------------------------------------------------: |
-| ![Screenshot Beranda](path/to/screenshot_beranda.png) | ![Screenshot Keranjang](path/to/screenshot_keranjang.png) | ![Screenshot Dashboard](path/to/screenshot_dashboard.png) |
+| Halaman Beranda | Keranjang Belanja | Dashboard Penjual |
+| :---: | :---: | :---: |
+| ![Screenshot Beranda](market-place/public/images/beranda.png) | ![Screenshot Keranjang](market-place/public/images/keranjang.png) | ![Screenshot Dashboard](market-place/public/images/dashboard.png) |
 
-*(**Catatan:** Ganti `path/to/screenshot_*.png` dengan path sebenarnya ke gambar Anda. Anda bisa menyimpan gambar di dalam direktori `public` atau menggunakan layanan hosting gambar.)*
+*(**Catatan Penting:** Ganti `nama_screenshot_beranda.png`, `nama_screenshot_keranjang.png`, dan `nama_screenshot_dashboard.png` dengan **nama file gambar Anda yang sebenarnya** yang ada di folder `public/images`.)*
 
 ---
 
